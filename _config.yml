@@ -23,8 +23,8 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  avatar           : "author.jpg"
+  name             : "Pepper Culpepper"
   pronouns         : # example: "she/her"  
   bio              : "Blavatnik Professor of Government and Public Policy at the Blavatnik School of Government and a Professorial Fellow at Nuffield College at the University of Oxford."
   location         : "Oxford"
