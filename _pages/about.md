@@ -1,11 +1,13 @@
 ---
 permalink: /
 title: "Home"
+layout: single
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
+
 
 Pepper Culpepper is Blavatnik Professor of Government and Public Policy at the Blavatnik School of Government and a Professorial Fellow at Nuffield College at the University of Oxford.
 
