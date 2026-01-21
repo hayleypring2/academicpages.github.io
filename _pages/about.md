@@ -13,15 +13,28 @@ He is the Vice Dean for Academic Affairs and Blavatnik Chair in Government and P
 
 ---
 
-## Upcoming book (January 2026)
+## Upcoming Release
+
+<a href="https://www.amazon.co.uk/Billionaire-Backlash-Corporate-Scandal-Democracy/dp/1399424106" target="_blank" rel="noopener">
+  <img src="{{ site.baseurl }}/assets/BB_SOCIALS_V2_2.jpg" alt="Billionaire Backlash banner" style="border-radius:14px; max-width:100%; height:auto;">
+</a>
 
 **Billionaire Backlash: The Age of Corporate Scandal and How it Could Save Democracy** (with Taeku Lee)  
-Bloomsbury • 2026
+Bloomsbury • January 2026
 
-[Buy – Amazon](https://www.amazon.co.uk/Billionaire-Backlash-Corporate-Scandal-Democracy/dp/1399424106) •
-[Buy – Bloomsbury](https://www.bloomsbury.com/uk/billionaire-backlash-9781399424110/)
+<a class="btn btn--primary" href="https://www.amazon.co.uk/Billionaire-Backlash-Corporate-Scandal-Democracy/dp/1399424106" target="_blank" rel="noopener">Buy – Amazon</a>
+<a class="btn btn--primary" href="https://www.bloomsbury.com/uk/billionaire-backlash-9781399424110/" target="_blank" rel="noopener">Buy – Bloomsbury</a>
 
-<img src="{{ site.baseurl }}/assets/BB_SOCIALS_V2_2.jpg" alt="Billionaire Backlash banner" style="border-radius:14px; max-width:100%; height:auto;">
+**The surprising story of how corporate scandals — from Enron to the Facebook privacy scandal — change the way the world works for the better.**
+
+Pepper Culpepper and Taeku Lee draw on a decade of research on policymaking and public opinion to show us how scandals can ignite a public with few political outlets for their discontent. Scandals don't simply dominate news cycles: they can provoke us to demand better policy, spurring governments to adopt rules that protect us from massive corporations run amok.
+
+Today it is giant companies, not governments, who run the world. They launch rockets into space, control satellite communication and develop era-defining AI technologies. But around the globe, these corporate titans are facing increasing public hostility.
+
+Tech giants are seen as promoting misinformation, undermining democracy and violating our privacy. Big banks, reeling since the financial crisis of 2008, continue to be racked with major scandals. Drawing on real-life examples such as the powdered milk scandal that rocked France, the VW scandal in Germany, the Goldman Sachs scandal in the United States, Cambridge Analytica in Britain and Samsung in South Korea — the authors show that these scandals are not just symptoms of a careless corporate elite, they are opportunities for real political change.
+
+Pepper Culpepper and Taeku Lee reveal how the shared anger of citizens can be channelled into a backlash that has the potential to reinvigorate our failing democracies. One corporate scandal at a time.
+
 
 ---
 
