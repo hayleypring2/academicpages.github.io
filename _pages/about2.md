@@ -2,7 +2,7 @@
 title: "About"
 permalink: /about/
 layout: single
-author_profile: false
+author_profile: true
 ---
 
 **Blavatnik Professor of Government and Public Policy • University of Oxford**
