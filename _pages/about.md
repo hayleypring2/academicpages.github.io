@@ -40,24 +40,55 @@ Pepper Culpepper and Taeku Lee reveal how the shared anger of citizens can be ch
 
 <hr>
 
-<div style="display:flex; gap:24px; flex-wrap:wrap; align-items:flex-start;">
+<div style="display:flex; gap:18px; flex-wrap:wrap; align-items:stretch;">
 
-  <div style="flex:1 1 340px; min-width:280px;">
-    <h2>Research &amp; Commentary (selected)</h2>
-    <ul>
-      <li><em>Comparative Political Studies</em> (2025) — <a href="https://journals.sagepub.com/doi/abs/10.1177/00104140241252072" target="_blank" rel="noopener">“The economy is rigged”: inequality narratives, fairness, and support for redistribution in six countries</a></li>
-      <li><em>Political Science Research and Methods</em> (2025) — <a href="https://www.cambridge.org/core/journals/political-science-research-and-methods/article/media-effects-revisited-corporate-scandals-partisan-narratives-and-attitudes-toward-cryptocurrency-regulation/3E115E475EBCD127849D4B01C0CE24BA" target="_blank" rel="noopener">Media effects revisited: corporate scandals, partisan narratives, and attitudes toward cryptocurrency regulation</a></li>
-      <li><em>American Journal of Political Science</em> (2024) — <a href="https://onlinelibrary.wiley.com/doi/full/10.1111/ajps.12752" target="_blank" rel="noopener">Banklash: How media coverage of bank scandals moves mass preferences on financial regulation</a></li>
+  <div style="flex:1 1 340px; min-width:280px; border:1px solid rgba(0,0,0,.12); border-radius:12px; padding:14px 16px; background:rgba(0,0,0,.02);">
+    <h3 style="margin:0 0 10px;">Research &amp; Commentary (selected)</h3>
+    <ul style="margin:0; padding-left:18px;">
+      <li style="margin:0 0 8px;">
+        <em>Comparative Political Studies</em> (2025) —
+        <a href="https://journals.sagepub.com/doi/abs/10.1177/00104140241252072" target="_blank" rel="noopener">
+          “The economy is rigged”: inequality narratives, fairness, and support for redistribution in six countries
+        </a>
+      </li>
+      <li style="margin:0 0 8px;">
+        <em>Political Science Research and Methods</em> (2025) —
+        <a href="https://www.cambridge.org/core/journals/political-science-research-and-methods/article/media-effects-revisited-corporate-scandals-partisan-narratives-and-attitudes-toward-cryptocurrency-regulation/3E115E475EBCD127849D4B01C0CE24BA" target="_blank" rel="noopener">
+          Media effects revisited: corporate scandals, partisan narratives, and attitudes toward cryptocurrency regulation
+        </a>
+      </li>
+      <li style="margin:0;">
+        <em>American Journal of Political Science</em> (2024) —
+        <a href="https://onlinelibrary.wiley.com/doi/full/10.1111/ajps.12752" target="_blank" rel="noopener">
+          Banklash: How media coverage of bank scandals moves mass preferences on financial regulation
+        </a>
+      </li>
     </ul>
   </div>
 
-  <div style="flex:1 1 340px; min-width:280px;">
-    <h2>In the Media (selected)</h2>
-    <ul>
-      <li><em>The Telegraph</em> (2025) — <a href="https://www.telegraph.co.uk/business/2025/03/17/trump-targets-lawyers-in-attempt-to-silence-critics/" target="_blank" rel="noopener">Trump targets lawyers in ‘chilling’ attempt to silence critics</a></li>
-      <li><em>Reuters</em> (2024) — <a href="https://www.reuters.com/business/healthcare-pharmaceuticals/unitedhealth-group-ceo-andrew-witty-says-healthcare-system-is-flawed-2024-12-13/" target="_blank" rel="noopener">UnitedHealth Group CEO Andrew Witty says healthcare system is flawed</a></li>
-      <li><em>Financial Times</em> (2023) — <a href="https://www.ft.com/content/6a61757f-8352-4102-897d-4b319b42ea63" target="_blank" rel="noopener">Does the American dream foster inequality?</a></li>
+  <div style="flex:1 1 340px; min-width:280px; border:1px solid rgba(0,0,0,.12); border-radius:12px; padding:14px 16px; background:rgba(0,0,0,.02);">
+    <h3 style="margin:0 0 10px;">In the Media (selected)</h3>
+    <ul style="margin:0; padding-left:18px;">
+      <li style="margin:0 0 8px;">
+        <em>The Telegraph</em> (2025) —
+        <a href="https://www.telegraph.co.uk/business/2025/03/17/trump-targets-lawyers-in-attempt-to-silence-critics/" target="_blank" rel="noopener">
+          Trump targets lawyers in ‘chilling’ attempt to silence critics
+        </a>
+      </li>
+      <li style="margin:0 0 8px;">
+        <em>Reuters</em> (2024) —
+        <a href="https://www.reuters.com/business/healthcare-pharmaceuticals/unitedhealth-group-ceo-andrew-witty-says-healthcare-system-is-flawed-2024-12-13/" target="_blank" rel="noopener">
+          UnitedHealth Group CEO Andrew Witty says healthcare system is flawed
+        </a>
+      </li>
+      <li style="margin:0;">
+        <em>Financial Times</em> (2023) —
+        <a href="https://www.ft.com/content/6a61757f-8352-4102-897d-4b319b42ea63" target="_blank" rel="noopener">
+          Does the American dream foster inequality?
+        </a>
+      </li>
     </ul>
   </div>
 
 </div>
+
