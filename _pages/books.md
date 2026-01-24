@@ -43,7 +43,7 @@ Pepper Culpepper and Taeku Lee draw on a decade of research on policymaking and 
 
 <hr>
 
-## Earlier books
+## Other books
 
 <div style="display:flex; flex-wrap:wrap; gap:16px; align-items:stretch;">
 
