@@ -54,9 +54,18 @@ classes: pubs
   .pubs-grid{ grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
 @media (max-width: 560px){
-  .pubs-grid{ grid-template-columns: 1fr; }
-  .pub-cover{ aspect-ratio: 16 / 9; }
+  .pubs-grid{
+    grid-template-columns: 1fr;
+  }
+
+  .pub-cover{
+    aspect-ratio: auto;     /* stop forcing a shape */
+    height: auto;
+    object-fit: contain;    /* show full image */
+    background: rgba(0,0,0,.03);
+  }
 }
+
 </style>
 
 <div class="pubs-grid">
