@@ -2,7 +2,7 @@
 title: "Books"
 permalink: /books/
 layout: single
-author_profile: false
+author_profile: true
 ---
 
 Books and edited volumes.
