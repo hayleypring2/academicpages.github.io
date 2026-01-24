@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Home"
+title: "Pepper Culpepper"
 layout: single
 author_profile: true
 ---
