@@ -47,49 +47,84 @@ Pepper Culpepper and Taeku Lee draw on a decade of research on policymaking and 
 
 <div style="display:flex; flex-wrap:wrap; gap:16px; align-items:stretch;">
 
+  <!-- Quiet Politics -->
   <div style="flex:1 1 320px; min-width:260px; border:1px solid rgba(0,0,0,.12); border-radius:14px; padding:14px 16px; background:rgba(0,0,0,.02);">
-    <div style="display:flex; gap:12px; align-items:center;">
-      <img src="{{ site.baseurl }}/assets/quietpolitics.jpg" alt="Cover of Quiet Politics and Business Power" style="width:80px; height:auto; border-radius:12px; border:1px solid rgba(0,0,0,.12);">
-      <div>
-        <strong>Quiet Politics and Business Power: Corporate Control in Europe and Japan</strong><br>
-        <span style="opacity:.75;">Cambridge University Press • 2012</span><br>
-        <a class="btn" href="https://www.amazon.com/Quiet-Politics-Business-Power-Comparative/dp/0521134137/" target="_blank" rel="noopener" style="margin-top:8px;">Buy</a>
+    <div style="display:flex; gap:12px; align-items:flex-start;">
+      <img src="{{ site.baseurl }}/assets/quietpolitics.jpg"
+           alt="Cover of Quiet Politics and Business Power"
+           style="width:80px; height:auto; border-radius:12px; border:1px solid rgba(0,0,0,.12);">
+
+      <div style="display:flex; flex-direction:column;">
+        <strong>Quiet Politics and Business Power: Corporate Control in Europe and Japan</strong>
+        <span style="opacity:.75; margin-top:4px;">Cambridge University Press • 2012</span>
+
+        <div style="margin-top:10px;">
+          <a class="btn"
+             href="https://www.amazon.com/Quiet-Politics-Business-Power-Comparative/dp/0521134137/"
+             target="_blank" rel="noopener">Buy</a>
+        </div>
       </div>
     </div>
   </div>
 
-  <div style="flex:1 1 320px; min-width:260px; border:1px solid rgba(0,0,0,.12); border-radius:14px; padding:14px 16px; background:rgba(0,0,0,.02);">
-    <div style="display:flex; gap:12px; align-items:center;">
-      <img src="{{ site.baseurl }}/assets/changing_france.jpg" alt="Cover of Changing France" style="width:80px; height:auto; border-radius:12px; border:1px solid rgba(0,0,0,.12);">
-      <div>
-        <strong>Changing France: The Politics that Markets Make</strong><br>
-        <span style="opacity:.75;">Palgrave Macmillan • 2008</span><br>
-        <a class="btn" href="https://www.amazon.com/Changing-France-Politics-Markets-Society/dp/0230204473/" target="_blank" rel="noopener" style="margin-top:8px;">Buy</a>
+  <!-- Changing France -->
+  <div style="flex:1 1 320px; min-width:260px; border:1 solid rgba(0,0,0,.12); border-radius:14px; padding:14px 16px; background:rgba(0,0,0,.02);">
+    <div style="display:flex; gap:12px; align-items:flex-start;">
+      <img src="{{ site.baseurl }}/assets/changing_france.jpg"
+           alt="Cover of Changing France"
+           style="width:80px; height:auto; border-radius:12px; border:1px solid rgba(0,0,0,.12);">
+
+      <div style="display:flex; flex-direction:column;">
+        <strong>Changing France: The Politics that Markets Make</strong>
+        <span style="opacity:.75; margin-top:4px;">Palgrave Macmillan • 2008</span>
+
+        <div style="margin-top:10px;">
+          <a class="btn"
+             href="https://www.amazon.com/Changing-France-Politics-Markets-Society/dp/0230204473/"
+             target="_blank" rel="noopener">Buy</a>
+        </div>
       </div>
     </div>
   </div>
 
+  <!-- Creating Cooperation -->
   <div style="flex:1 1 320px; min-width:260px; border:1px solid rgba(0,0,0,.12); border-radius:14px; padding:14px 16px; background:rgba(0,0,0,.02);">
-    <div style="display:flex; gap:12px; align-items:center;">
-      <img src="{{ site.baseurl }}/assets/states_capital.jpg" alt="Cover of Creating Cooperation" style="width:80px; height:auto; border-radius:12px; border:1px solid rgba(0,0,0,.12);">
-      <div>
-        <strong>Creating Cooperation: How States Develop Human Capital in Europe</strong><br>
-        <span style="opacity:.75;">Cornell Studies in Political Economy • 2002</span><br>
-        <a class="btn" href="https://www.amazon.com/exec/obidos/tg/detail/-/0801440696/" target="_blank" rel="noopener" style="margin-top:8px;">Buy</a>
+    <div style="display:flex; gap:12px; align-items:flex-start;">
+      <img src="{{ site.baseurl }}/assets/states_capital.jpg"
+           alt="Cover of Creating Cooperation"
+           style="width:80px; height:auto; border-radius:12px; border:1px solid rgba(0,0,0,.12);">
+
+      <div style="display:flex; flex-direction:column;">
+        <strong>Creating Cooperation: How States Develop Human Capital in Europe</strong>
+        <span style="opacity:.75; margin-top:4px;">Cornell Studies in Political Economy • 2002</span>
+
+        <div style="margin-top:10px;">
+          <a class="btn"
+             href="https://www.amazon.com/exec/obidos/tg/detail/-/0801440696/"
+             target="_blank" rel="noopener">Buy</a>
+        </div>
       </div>
     </div>
   </div>
 
+  <!-- German Skills Machine -->
   <div style="flex:1 1 320px; min-width:260px; border:1px solid rgba(0,0,0,.12); border-radius:14px; padding:14px 16px; background:rgba(0,0,0,.02);">
-    <div style="display:flex; gap:12px; align-items:center;">
-      <img src="{{ site.baseurl }}/assets/german_skills.jpg" alt="Cover of The German Skills Machine" style="width:80px; height:auto; border-radius:12px; border:1px solid rgba(0,0,0,.12);">
-      <div>
-        <strong>The German Skills Machine: Sustaining Comparative Advantage in a Global Economy</strong><br>
-        <span style="opacity:.75;">Berghahn Books • 1999</span><br>
-        <a class="btn" href="https://www.amazon.com/German-Skills-Machine-Comparative-Institutions/dp/1571811443/" target="_blank" rel="noopener" style="margin-top:8px;">Buy</a>
+    <div style="display:flex; gap:12px; align-items:flex-start;">
+      <img src="{{ site.baseurl }}/assets/german_skills.jpg"
+           alt="Cover of The German Skills Machine"
+           style="width:80px; height:auto; border-radius:12px; border:1px solid rgba(0,0,0,.12);">
+
+      <div style="display:flex; flex-direction:column;">
+        <strong>The German Skills Machine: Sustaining Comparative Advantage in a Global Economy</strong>
+        <span style="opacity:.75; margin-top:4px;">Berghahn Books • 1999</span>
+
+        <div style="margin-top:10px;">
+          <a class="btn"
+             href="https://www.amazon.com/German-Skills-Machine-Comparative-Institutions/dp/1571811443/"
+             target="_blank" rel="noopener">Buy</a>
+        </div>
       </div>
     </div>
   </div>
 
 </div>
-
