@@ -48,7 +48,7 @@ Pepper Culpepper and Taeku Lee draw on a decade of research on policymaking and 
 <div style="display:flex; flex-wrap:wrap; gap:16px; align-items:stretch;">
 
   <!-- Quiet Politics -->
-  <div style="flex:1 1 320px; min-width:260px; border:1px solid rgba(0,0,0,.12); border-radius:14px; padding:14px 16px; background:rgba(0,0,0,.02);">
+  <div style="flex:1 1 320px; min-width:260px; border:1px solid rgba(0,0,0,.12); border-radius:14px; padding:14px 16px; background:#fff;">
     <div style="display:flex; gap:12px; align-items:flex-start;">
       <img src="{{ site.baseurl }}/assets/quietpolitics.jpg"
            alt="Cover of Quiet Politics and Business Power"
@@ -58,9 +58,8 @@ Pepper Culpepper and Taeku Lee draw on a decade of research on policymaking and 
         <strong>Quiet Politics and Business Power: Corporate Control in Europe and Japan</strong>
         <span style="opacity:.75; margin-top:4px;">Cambridge University Press • 2012</span>
 
-        <div style="margin-top:10px;">
-          <a class="btn"
-             href="https://www.amazon.com/Quiet-Politics-Business-Power-Comparative/dp/0521134137/"
+        <div style="margin-top:12px;">
+          <a class="btn" href="https://www.amazon.com/Quiet-Politics-Business-Power-Comparative/dp/0521134137/"
              target="_blank" rel="noopener">Buy</a>
         </div>
       </div>
@@ -68,7 +67,7 @@ Pepper Culpepper and Taeku Lee draw on a decade of research on policymaking and 
   </div>
 
   <!-- Changing France -->
-  <div style="flex:1 1 320px; min-width:260px; border:1 solid rgba(0,0,0,.12); border-radius:14px; padding:14px 16px; background:rgba(0,0,0,.02);">
+  <div style="flex:1 1 320px; min-width:260px; border:1px solid rgba(0,0,0,.12); border-radius:14px; padding:14px 16px; background:#fff;">
     <div style="display:flex; gap:12px; align-items:flex-start;">
       <img src="{{ site.baseurl }}/assets/changing_france.jpg"
            alt="Cover of Changing France"
@@ -78,9 +77,8 @@ Pepper Culpepper and Taeku Lee draw on a decade of research on policymaking and 
         <strong>Changing France: The Politics that Markets Make</strong>
         <span style="opacity:.75; margin-top:4px;">Palgrave Macmillan • 2008</span>
 
-        <div style="margin-top:10px;">
-          <a class="btn"
-             href="https://www.amazon.com/Changing-France-Politics-Markets-Society/dp/0230204473/"
+        <div style="margin-top:12px;">
+          <a class="btn" href="https://www.amazon.com/Changing-France-Politics-Markets-Society/dp/0230204473/"
              target="_blank" rel="noopener">Buy</a>
         </div>
       </div>
@@ -88,7 +86,7 @@ Pepper Culpepper and Taeku Lee draw on a decade of research on policymaking and 
   </div>
 
   <!-- Creating Cooperation -->
-  <div style="flex:1 1 320px; min-width:260px; border:1px solid rgba(0,0,0,.12); border-radius:14px; padding:14px 16px; background:rgba(0,0,0,.02);">
+  <div style="flex:1 1 320px; min-width:260px; border:1px solid rgba(0,0,0,.12); border-radius:14px; padding:14px 16px; background:#fff;">
     <div style="display:flex; gap:12px; align-items:flex-start;">
       <img src="{{ site.baseurl }}/assets/states_capital.jpg"
            alt="Cover of Creating Cooperation"
@@ -98,9 +96,8 @@ Pepper Culpepper and Taeku Lee draw on a decade of research on policymaking and 
         <strong>Creating Cooperation: How States Develop Human Capital in Europe</strong>
         <span style="opacity:.75; margin-top:4px;">Cornell Studies in Political Economy • 2002</span>
 
-        <div style="margin-top:10px;">
-          <a class="btn"
-             href="https://www.amazon.com/exec/obidos/tg/detail/-/0801440696/"
+        <div style="margin-top:12px;">
+          <a class="btn" href="https://www.amazon.com/exec/obidos/tg/detail/-/0801440696/"
              target="_blank" rel="noopener">Buy</a>
         </div>
       </div>
@@ -108,7 +105,7 @@ Pepper Culpepper and Taeku Lee draw on a decade of research on policymaking and 
   </div>
 
   <!-- German Skills Machine -->
-  <div style="flex:1 1 320px; min-width:260px; border:1px solid rgba(0,0,0,.12); border-radius:14px; padding:14px 16px; background:rgba(0,0,0,.02);">
+  <div style="flex:1 1 320px; min-width:260px; border:1px solid rgba(0,0,0,.12); border-radius:14px; padding:14px 16px; background:#fff;">
     <div style="display:flex; gap:12px; align-items:flex-start;">
       <img src="{{ site.baseurl }}/assets/german_skills.jpg"
            alt="Cover of The German Skills Machine"
@@ -118,9 +115,8 @@ Pepper Culpepper and Taeku Lee draw on a decade of research on policymaking and 
         <strong>The German Skills Machine: Sustaining Comparative Advantage in a Global Economy</strong>
         <span style="opacity:.75; margin-top:4px;">Berghahn Books • 1999</span>
 
-        <div style="margin-top:10px;">
-          <a class="btn"
-             href="https://www.amazon.com/German-Skills-Machine-Comparative-Institutions/dp/1571811443/"
+        <div style="margin-top:12px;">
+          <a class="btn" href="https://www.amazon.com/German-Skills-Machine-Comparative-Institutions/dp/1571811443/"
              target="_blank" rel="noopener">Buy</a>
         </div>
       </div>
