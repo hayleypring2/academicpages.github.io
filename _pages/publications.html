@@ -9,12 +9,6 @@ classes: pubs
 
 {% include base_path %}
 
-{% if site.author.googlescholar %}
-<p class="notice--info" style="margin-top:0;">
-  You can also find my articles on <a href="{{ site.author.googlescholar }}" target="_blank" rel="noopener">my Google Scholar profile</a>.
-</p>
-{% endif %}
-
 <style>
 .pubs-grid{
   display: grid;
@@ -64,8 +58,6 @@ classes: pubs
   .pub-cover{ aspect-ratio: 16 / 9; }
 }
 </style>
-
-## Journal articles
 
 <div class="pubs-grid">
   {% assign pubs = site.data.publications | sort: "year" | reverse %}
