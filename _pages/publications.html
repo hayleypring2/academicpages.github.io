@@ -6,6 +6,7 @@ author_profile: true
 classes: pubs
 ---
 
+
 {% include base_path %}
 
 {% if site.author.googlescholar %}
@@ -14,77 +15,71 @@ classes: pubs
 </p>
 {% endif %}
 
-{% if site.publication_category %}
-  {% for category in site.publication_category %}
-    {% assign title_shown = false %}
-    {% assign items = site.publications | where: "category", category[0] | sort: "date" %}
-    {% if items.size > 0 %}
-      <h2 style="margin-top:22px;">{{ category[1].title }}</h2>
+<style>
+.pubs-grid{
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.25rem;
+  margin-top: 1rem;
+}
+.pub-item{
+  display: grid;
+  grid-template-rows: auto 1fr;
+  gap: .65rem;
+}
+.pub-cover{
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 1px solid rgba(0,0,0,.12);
+  background: rgba(0,0,0,.03);
+}
+.pub-title{
+  font-weight: 650;
+  line-height: 1.25;
+  margin: 0 0 .35rem;
+}
+.pub-meta{
+  margin: 0;
+  opacity: .8;
+  font-size: .92rem;
+}
+.pub-links{
+  margin-top: .5rem;
+  font-size: .95rem;
+}
+.pub-links a{
+  text-decoration: none;
+  border-bottom: 1px solid rgba(0,0,0,.2);
+}
+.pub-links a:hover{
+  border-bottom-color: rgba(0,0,0,.5);
+}
+@media (max-width: 900px){
+  .pubs-grid{ grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 560px){
+  .pubs-grid{ grid-template-columns: 1fr; }
+  .pub-cover{ aspect-ratio: 16 / 9; }
+}
+</style>
 
-      <div class="pub-grid">
-        {% for post in items reversed %}
-          <article class="pub-card">
-            {% if post.image %}
-              <img class="pub-cover" src="{{ base_path }}{{ post.image }}" alt="">
-            {% else %}
-              <div class="pub-cover pub-cover--placeholder" aria-hidden="true"></div>
-            {% endif %}
+## Journal articles
 
-            <div>
-              <div class="pub-title">
-                <a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a>
-              </div>
-
-              <div class="pub-meta">
-                {% if post.venue %}{{ post.venue }}{% endif %}
-                {% if post.date %} • {{ post.date | date: "%Y" }}{% endif %}
-              </div>
-
-              <div class="pub-links">
-                {% if post.paperurl %}
-                  <a class="btn btn--primary btn--small" href="{{ post.paperurl }}" target="_blank" rel="noopener">Read article</a>
-                {% else %}
-                  <a class="btn btn--primary btn--small" href="{{ base_path }}{{ post.url }}">Details</a>
-                {% endif %}
-              </div>
-            </div>
-          </article>
-        {% endfor %}
+<div class="pubs-grid">
+  {% assign pubs = site.data.publications | sort: "year" | reverse %}
+  {% for p in pubs %}
+    <article class="pub-item">
+      <img class="pub-cover" src="{{ base_path }}{{ p.cover }}" alt="{{ p.venue }} cover">
+      <div>
+        <p class="pub-title">{{ p.title }}</p>
+        <p class="pub-meta">{{ p.venue }} • {{ p.year }}</p>
+        <p class="pub-links">
+          <a href="{{ p.url }}" target="_blank" rel="noopener">Read article</a>
+        </p>
       </div>
-    {% endif %}
+    </article>
   {% endfor %}
-{% else %}
-  <div class="pub-grid">
-    {% for post in site.publications reversed %}
-      <article class="pub-card">
-        {% if post.image %}
-          <img class="pub-cover" src="{{ base_path }}{{ post.image }}" alt="">
-        {% else %}
-          <div class="pub-cover pub-cover--placeholder" aria-hidden="true"></div>
-        {% endif %}
-
-        <div>
-          <div class="pub-title">
-            <a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a>
-          </div>
-
-          <div class="pub-meta">
-            {% if post.venue %}{{ post.venue }}{% endif %}
-            {% if post.date %} • {{ post.date | date: "%Y" }}{% endif %}
-          </div>
-
-          <div class="pub-links">
-            {% if post.paperurl %}
-              <a class="btn btn--primary btn--small" href="{{ post.paperurl }}" target="_blank" rel="noopener">Read article</a>
-            {% else %}
-              <a class="btn btn--primary btn--small" href="{{ base_path }}{{ post.url }}">Details</a>
-            {% endif %}
-          </div>
-        </div>
-      </article>
-    {% endfor %}
-  </div>
-{% endif %}
-
-
+</div>
 
