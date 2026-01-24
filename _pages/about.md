@@ -3,6 +3,7 @@ permalink: /
 title: "Pepper Culpepper"
 layout: single
 author_profile: true
+classes: home
 ---
 
 
