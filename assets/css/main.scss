@@ -41,3 +41,27 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+
+/* Mobile-only quick links under author bio */
+.author__quicklinks{
+  display: none;
+  margin-top: .6rem;
+  gap: .9rem;
+  flex-wrap: wrap;
+  font-size: .95rem;
+}
+
+.author__quicklink{
+  text-decoration: none;
+  border-bottom: 1px solid rgba(0,0,0,.25);
+}
+
+.author__quicklink:hover{
+  border-bottom-color: rgba(0,0,0,.5);
+}
+
+@media (max-width: 700px){
+  .author__quicklinks{
+    display: flex;
+  }
+}
