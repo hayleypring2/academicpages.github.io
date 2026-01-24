@@ -19,17 +19,26 @@
   {% if author.pronouns %}<p class="author__pronouns">{{ author.pronouns }}</p>{% endif %}
   {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
 
-  <div class="author__quicklinks">
-    {% if author.email %}
-      <a class="author__quicklink" href="mailto:{{ author.email }}">Email</a>
-    {% endif %}
-    {% if author.googlescholar %}
-      <a class="author__quicklink" href="{{ author.googlescholar }}" target="_blank" rel="noopener">Scholar</a>
-    {% endif %}
-    {% if author.bluesky %}
-      <a class="author__quicklink" href="https://bsky.app/profile/{{ author.bluesky }}" target="_blank" rel="noopener">Bluesky</a>
-    {% endif %}
-  </div>
+ <div class="author__quicklinks">
+  {% if author.email %}
+    <a class="author__quicklink" href="mailto:{{ author.email }}" aria-label="Email">
+      <i class="fas fa-envelope"></i>
+    </a>
+  {% endif %}
+
+  {% if author.googlescholar %}
+    <a class="author__quicklink" href="{{ author.googlescholar }}" target="_blank" rel="noopener" aria-label="Google Scholar">
+      <i class="ai ai-google-scholar"></i>
+    </a>
+  {% endif %}
+
+  {% if author.bluesky %}
+    <a class="author__quicklink" href="https://bsky.app/profile/{{ author.bluesky }}" target="_blank" rel="noopener" aria-label="Bluesky">
+      <i class="fab fa-bluesky"></i>
+    </a>
+  {% endif %}
+</div>
+
 </div>
 
   <div class="author__urls-wrapper">
