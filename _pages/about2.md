@@ -23,5 +23,3 @@ His public commentary has appeared in The Conversation, the International Herald
 Pepper obtained a PhD in political science from Harvard University, a BA from Duke University (summa cum laude), and an MLitt from the University of Oxford, where he was a Marshall Scholar. He has previously taught at the Harvard Kennedy School and the European University Institute in Italy. He was an Abe Fellow at the University of Tokyo and has held long-term visiting appointments in France and Germany.
 
 ---
-
-Oxford, UK
