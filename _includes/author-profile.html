@@ -14,11 +14,23 @@
     {% endif %}
   </div>
 
-  <div class="author__content">
-    <h3 class="author__name">{{ author.name }}</h3>
-    {% if author.pronouns %}<p class="author__pronouns">{{ author.pronouns }}</p>{% endif %}
-    {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
+ <div class="author__content">
+  <h3 class="author__name">{{ author.name }}</h3>
+  {% if author.pronouns %}<p class="author__pronouns">{{ author.pronouns }}</p>{% endif %}
+  {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
+
+  <div class="author__quicklinks">
+    {% if author.email %}
+      <a class="author__quicklink" href="mailto:{{ author.email }}">Email</a>
+    {% endif %}
+    {% if author.googlescholar %}
+      <a class="author__quicklink" href="{{ author.googlescholar }}" target="_blank" rel="noopener">Scholar</a>
+    {% endif %}
+    {% if author.bluesky %}
+      <a class="author__quicklink" href="https://bsky.app/profile/{{ author.bluesky }}" target="_blank" rel="noopener">Bluesky</a>
+    {% endif %}
   </div>
+</div>
 
   <div class="author__urls-wrapper">
     <button class="btn btn--inverse">Follow</button>
