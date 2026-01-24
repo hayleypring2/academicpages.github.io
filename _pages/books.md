@@ -5,8 +5,6 @@ layout: single
 author_profile: true
 ---
 
-Books and edited volumes.
-
 <p style="text-align:center; margin: 16px 0 10px;">
   On the
   <a href="https://www.ft.com/content/5de26a95-b04e-4829-bea3-da9fbcd621fd" target="_blank" rel="noopener">
